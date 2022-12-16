@@ -11,6 +11,14 @@
             color: white;
             font: normal 18pt arial;
         }
+        #msg {
+            background-color: blueviolet;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+
+        }
     </style>
 </head>
 <body>
@@ -23,7 +31,21 @@
         var p1 = window.document.getElementsByTagName('p')[1]
         var d = window.document.querySelector('div#msg')
         d.style.color = 'black' 
-        
+        var d = window.document.getElementById('msg')
+        d.addEventListener('click', clicar)
+        d.addEventListener('mouseout', saiu)
+        d.addEventListener('mouseenter', entrou)
+        function clicar() {
+            d.innerText = 'Clicou!'
+            d.style.background = 'yellow'
+        }
+        function saiu() {
+            d.innerText = 'Saiu!'
+            d.style.background = 'blueviolet'
+        }
+        function entrou() {
+            d.innerText = 'Entrou!'
+        }
 
     </script>
 </body>
