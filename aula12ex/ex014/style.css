@@ -7,6 +7,7 @@ body {
 header {
     color: white;
     text-align: center;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.35);
 }
 section {
     background-image: url(background001.jpg);
