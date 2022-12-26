@@ -5,18 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Modelo de Exercício</title>
+    <title>Tabuada</title>
 </head>
-<body onload="carregar()">
+<body>
   <header>
-    <h1>Hora Do Dia</h1>
+    <h1>Tabuada</h1>
   </header>
   <section>
-    <div id="msg">
-        Aqui vai aparecer a mensagem...
+    <div id="mum">
+        <p>Número: <input type="number" name="num" id="txtn">
+        <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
     </div>
-    <div id="foto">
-        <img id="imagem" src="manha.png" alt="foto do dia">
+    <div id="res">
+      <select name="tabuada" id="seltab" size="10">
+        <option>Digite um Número acima</option>
+      </select>
+       
     </div>
   </section>
   <footer>
