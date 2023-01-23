@@ -33,5 +33,11 @@ body {
     border-radius: 5px;
     padding: 1em 2em;
     text-transform: uppercase;
+    cursor: pointer;
 
+}
+.cronometro {
+    font-size: 5em;
+    margin: 0 0 1rem;
+    font-weight: 300;
 }

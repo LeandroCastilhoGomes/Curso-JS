@@ -7,8 +7,8 @@ Tarefas:
 - [x] Conectar o ativador do crônometro com a função de criar crônometro
 - [x]  Disparar um aviso ao fim do cronometro
 - [x] Criar a lógica de contador de segundos
-- [ ] Calcular o tempo restante
-- [ ] Criar o componete do cronometro da tela
+- [x] Calcular o tempo restante
+- [x] Criar o componete do cronometro da tela
 - [ ] Exibir visualmente o tempo restante no componete do cronometro
 - [ ] Ter uma outra ativação de cronometro, com 5 min, para o intervalo
 - [ ] Exibir uma contagem de pomodoros
@@ -25,3 +25,4 @@ Tarefas:
 - [ ] Salvar o status no localStorage para se a aba for encerrada
 - [ ] Alterar o tema
 - [ ] Função esconder o timer
+- [ ] Acessibilidade para o cronometro com a tag <time>
