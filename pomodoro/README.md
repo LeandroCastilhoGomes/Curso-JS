@@ -10,7 +10,7 @@ Tarefas:
 - [x] Calcular o tempo restante
 - [x] Criar o componete do cronometro da tela
 - [x] Exibir visualmente o tempo restante no componete do cronometro
-- [ ] Ter uma outra ativação de cronometro, com 5 min, para o intervalo
+- [x] Ter uma outra ativação de cronometro, com 5 min, para o intervalo
 - [ ] Exibir uma contagem de pomodoros
 - [ ] Depois de 4 pomodoros ativar um intervalo longo de 15min
 - [ ] Botão para pausar e retornar ao contador
